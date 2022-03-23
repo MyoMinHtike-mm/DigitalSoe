@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Libre+Franklin:wght@100&family=Noto+Serif&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+
+
+      footer{
+        background: #212934;
+      }
+
+
+
+      #ful li{
+        width: 45px;
+        height: 45px;
+        border: 1px solid #2d343f;
+        border-radius: 50%;
+      }
+
+      /* #ful li:hover{
+        background-color: #fff;
+  
+      } */
+
+      /* #ful li:hover #ful li a i{
+        color: black;
+      } */
+
+      #ful li a{
+        text-decoration: none;
+      }
+
+      #ful li a i{
+        font-size: 1.5rem;
+      }
+    </style>
+</head>
+<body>
+
+        <div class="container-fluid bg-dark">
+
+          <!-- Container Start -->
+          <div class="container bg-dark">
+
+            <!-- Info Bar Start -->
+            <nav class="navbar navbar-expand-lg d-lg-flex d-none justify-content-between text-white-50">
+              <div class="navbar-mail">
+                <i class="bi bi-envelope-fill me-2"></i>
+                <span class="me-3">
+                  <small>myominhtike656@gmail.com</small>
+                </span>
+                <i class="bi bi-telephone-fill me-2"></i>
+                <span class="">
+                  <small>09-793142238</small>
+                </span> 
+              </div>
+              <div>
+                  <a href="#"><i class="bi bi-github text-white-50 me-2"></i></a>
+                  <a href="#"><i class="bi bi-google text-white-50 me-2"></i></a>
+                  <a href="#"><i class="bi bi-youtube text-white-50 me-2"></i></a>
+                  <a href="#"><i class="bi bi-twitter text-white-50 me-2"></i></a>
+              </div>
+          </nav>
+          <!-- Info Bar End -->
+
+          </div>
+          <!-- Container End -->
+
+        </div>
+
+          <!-- Header Start -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <div class="d-flex justify-content-between w-100 mx-lg-auto">
+             
+                <h2>
+                  <span><a href="#" class="text-decoration-none text-success">Digital Soe</a></span>
+                </h2>
+                <ul class="nav navbar-nav" id="navbar">
+                  <li class="nav-item me-5">
+                    <a href="#" class="nav-link active">
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a href="#" class="nav-link">
+                      Profile
+                    </a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a href="#" class="nav-link">
+                      Dashboard
+                    </a>
+                  </li>
+                  <li class="nav-item me-5">
+                    <a href="#" class="nav-link">
+                      Setting
+                    </a>
+                  </li>
+                </ul>
+                <div class="mt-1 d-none d-lg-inline">
+                  <a href="#" data-bs-toggle="modal" data-bs-target="#search_modal"><i class="bi bi-search me-3"></i></a>
+                  <a href="#">
+                    <i class="bi bi-cart-fill me-2"></i>
+                    <span class="position-absolute top-10 left-100 translate-middle badge rounded-pill bg-light text-dark">+7</span>
+                  </a>
+                  <a href="#">
+                    <i class="bi bi-people-fill me-3"></i>
+                    <span class="position-absolute top-10 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
+                  </a>
+                
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="bi bi-list"></i>
+                </button>
+              </div>
+            </div>   
+          </nav>
+          <!-- Header End -->
+
+          <!-- Modal Search Box Start -->
+      
+          <div class="modal fade bg-light" id="search_modal">
+            <div class="modal-dialog">
+              <div class="modal-header">
+                <button class="btn btn-close btn-primary" data-bs-dismiss="modal"></button>
+              </div>
+
+             
+               
+                <form action="" class="modal-content modal-body" style="border: none;">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="search">
+                    <button class="input-group-text bg-success" >
+                      <i class="bi bi-search"></i>
+                    </button>
+                   
+                  </div>           
+                </form>
+              
+            </div>
+
+          </div>
+           <!-- Modal Search Box End -->
+
+          <!-- Carousel Box Start -->
+          <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+                <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                <img class="img-fluid" src="./asset/images/banner_img_01.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                <div class="text-align-left align-self-center">
+                                    <h1 class="h1 text-success"><b>Digital Soe</b> eCommerce</h1>
+                                    <h3 class="h2">Tiny and Perfect eCommerce Template</h3>
+                                    <p>
+                                        Asnarsar Shop is an eCommerce HTML5 CSS template with latest version of Bootstrap 5 (beta 1). 
+                                        This template is 100% free provided by <a rel="sponsored" class="text-success" href="https://templatemo.com" target="_blank">TemplateMo</a> website. 
+                                        Image credits go to <a rel="sponsored" class="text-success" href="https://stories.freepik.com/" target="_blank">Freepik Stories</a>,
+                                        <a rel="sponsored" class="text-success" href="https://unsplash.com/" target="_blank">Unsplash</a> and
+                                        <a rel="sponsored" class="text-success" href="https://icons8.com/" target="_blank">Icons 8</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                <img class="img-fluid" src="./asset/images/banner_img_02.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                <div class="text-align-left">
+                                    <h1 class="h1">Proident occaecat</h1>
+                                    <h3 class="h2">Aliquip ex ea commodo consequat</h3>
+                                    <p>
+                                        You are permitted to use this Zay CSS template for your commercial websites. 
+                                        You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row p-5">
+                            <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                <img class="img-fluid" src="./asset/images/banner_img_03.jpg" alt="">
+                            </div>
+                            <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                <div class="text-align-left">
+                                    <h1 class="h1">Repr in voluptate</h1>
+                                    <h3 class="h2">Ullamco laboris nisi ut </h3>
+                                    <p>
+                                        We bring you 100% free CSS templates for your websites. 
+                                        If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev text-decoration-none w-auto ps-3 active" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
+              <i class="bi bi-chevron-left me-2 text-success" style="font-size: 50px;"></i>
+            </a>
+            <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
+              <i class="bi bi-chevron-right me-2 text-success" style="font-size: 50px;"></i>
+            </a>
+        </div>
+        <!-- Carousel Box End -->
+
+        <!-- Categories Section Start -->
+        <section class="p-3">
+          <div class="container">
+            <div class="row text-center p-3">
+              <div class="col-lg-6 m-auto">
+                <h2 class="mb-3">Categories Of Products</h2>
+                <p>Lorem ipsum dolor sit amet perspiciatis tempore porro laborum doloribus.lorem10 is to use for replace content of coding</p>
+              </div>
+            </div>
+            <div class="row mx-lg-auto">
+              <div class="col-md-4 col-12">
+                <a href="#"><img class="img-fluid" src="./asset/images/category_img_01.jpg" alt=""></a>
+                <h2 class="text-center my-3">Watches</h2>
+                <p class="text-center">
+                  <a href="#" class="btn btn-success">Go Shop</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-12">
+                <a href="#"><img class="img-fluid" src="./asset/images/category_img_02.jpg" alt=""></a>
+                <h2 class="text-center my-3">Shoes</h2>
+                <p class="text-center">
+                  <a href="#" class="btn btn-success">Go Shop</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-12">
+                <a href="#"><img class="img-fluid" src="./asset/images/category_img_03.jpg" alt=""></a>
+                <h2 class="text-center my-3">Glass</h2>
+                <p class="text-center">
+                  <a href="#" class="btn btn-success text-light">Go Shop</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Categories Section Start -->
+
+        <!-- Feature Section Start -->
+        <section class="bg-light">
+          <div class="container mt-5">
+            <div class="row mt-5">
+              <div class="col-lg-6 m-auto">
+                <div class="text-center mb-3">
+                  <h2>Feature Products</h2>
+                  <p>Lorem ipsum dolor sit amet perspiciatis tempore porro laborum doloribus.lorem10 is to use for replace content of coding</p>
+                </div>
+                
+
+              </div>
+            </div>
+            <div class="row mt-5 g-5">
+              <div class="col-12 col-lg-4 col-md-4" style="height: 500px;">
+                <div class="card h-100">
+                  <a href="#"><img class="img-fluid" src="./asset/images/feature_prod_01.jpg" alt=""></a>
+                  <div class="card-body">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                      <li>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star text-secondary"></i>
+                      </li>
+                      <li class="text-muted text-right">$340</li>
+                    </ul>
+                    <a href="#"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis omnis nesciunt totam nam quasi magnam?</p></a>
+                    <span class="text-muted">Reviews (24)</span>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4 col-md-4" style="height: 500px;">
+                <div class="card h-100">
+                  <a href="#"><img class="img-fluid" src="./asset/images/feature_prod_02.jpg" alt=""></a>
+                  <div class="card-body">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                      <li>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star text-secondary"></i>
+                        <i class="bi bi-star text-secondary"></i>
+                      </li>
+                      <li class="text-muted text-right">$240</li>
+                    </ul>
+                    <a href="#"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis omnis nesciunt totam nam quasi magnam?</p></a> 
+                    <span class="text-muted">Reviews (24)</span>
+                  </div>
+                </div>       
+              </div>
+
+              <div class="col-12 col-lg-4 col-md-4 mb-5" style="height: 500px;">
+                <div class="card h-100">
+                  <a href="#"><img class="img-fluid" src="./asset/images/feature_prod_03.jpg" alt=""></a>
+                  <div class="card-body">
+                    <ul class="list-unstyled d-flex justify-content-between">
+                      <li>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                        <i class="bi bi-star-fill text-warning"></i>
+                      </li>
+                      <li class="text-muted text-right">$440</li>
+                    </ul>
+                    <a href="#"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis omnis nesciunt totam nam quasi magnam?</p></a> 
+                    <span class="text-muted">Reviews (24)</span>
+                  </div>
+                </div>       
+              </div>
+
+            </div>
+          </div>
+        </section>
+        <!-- Feature Section End -->
+
+        <!-- Footer Section Start --> 
+        <footer>
+          <div class="container">
+            <div class="row" style="font-family: 'Palette Mosaic', cursive;">
+              <div class="col-12 col-md-4 col-lg-4 p-3" id="focol">     
+                <h2 class="h2 text-success border-bottom border-info py-4 logo">Asnarsar</h2>
+                <ul class="list-unstyled text-light style" style="line-height: 3rem; font-size: 1.3rem; font-family: 'Times New Roman', Times, serif">
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">
+                      <i class="bi bi-geo-alt-fill text-light"></i>
+                      123 Consectetur at ligula 10660
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">
+                      <i class="bi bi-telephone-fill text-light"></i>
+                      010-020-0340
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">
+                      <i class="bi bi-geo-alt-fill text-light"></i>
+                      123 Consectetur at ligula 10660
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 p-3">
+                <h2 class="h2 text-light border-bottom border-info py-4 logo">Products</h2>
+                <ul class="list-unstyled text-light" style="line-height: 3rem; font-size: 1.3rem; font-family: 'Times New Roman', Times, serif">
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Luxury</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Sport Wear</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Men's Shoes</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Women's Shoes</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Popular Dress</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Gym Accessories</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Sport Shoes</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-md-4 col-lg-4 p-3">
+                <h2 class="h2 text-light border-bottom border-info py-4 logo">Future Info</h2>
+                <ul class="list-unstyled text-light" style="line-height: 3rem;">
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Home</a>
+                  </li>
+                  <li>
+                      <a href="#" class="text-decoration-none text-light">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none text-light">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col my-3 w-100">
+                <div class="border-top border-danger w-100 mb-3">d</div>
+              </div>
+              <div class="row d-flex justify-content-between">
+                <div class="col-auto">
+                  <ul class="list-inline" id="ful">
+                    <li class="list-inline-item text-center pt-1">
+                      <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item text-center pt-1">
+                      <a href="#" class="text-light"><i class="bi bi-youtube"></i></a>
+                    </li>
+                    <li class="list-inline-item text-center pt-1">
+                      <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item text-center pt-1">
+                      <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-auto">
+                  <form action="" class="input-group">
+                    <!-- <label for="email" class="text-light">E-mail Address</label> -->
+                    <input type="text" class="form-control bg-dark" name="" id="email" placeholder="Email Address">
+                    <button class="input-group-text btn-success">Enter</button>
+                  </form>
+                </div>
+       
+              </div>
+            </div>
+          </div>
+          <div class="w-100 bg-dark mt-3">
+            <div class="container">
+              <div class="row pt-2">
+                <div class="col-12">
+                  <p class="text-left text-light">
+                    Copyright &copy; 2022 LiveTech 
+                    | Designed by <a rel="sponsored" class="text-decoration-none" href="https://templatemo.com" target="_blank">Asnarsar</a>
+                </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+
+        <!-- Footer Section End -->
+
+        
+          
+        
+
+
+
+
+
+        <script src="asset/js/bootstrap.bundle.min.js">
+
+        </script>
+
+        <script>
+
+      
+let fruits = ['apple', 'grape', 'lemon', 'orange',['avocado', 'leaf', 'tree']];
+
+let vegetables = fruits.flat(3);
+console.log(vegetables);
+
+        </script>
+    
+</body>
+</html>
